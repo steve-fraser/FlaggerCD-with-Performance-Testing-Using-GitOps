@@ -5,6 +5,6 @@ resources:
 - deployment.yaml
 - hpa.yaml
 images:
-  - name: ghcr.io/stefanprodan/podinfo
-    newName: ghcr.io/stefanprodan/podinfo
-    newTag: 5.0.0
+  - name: stevenfraser/ci-demo-application
+    newName: stevenfraser/ci-demo-application
+    newTag: 0.0.1
