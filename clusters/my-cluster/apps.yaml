@@ -13,8 +13,3 @@ spec:
   path: ./apps
   prune: true
   validation: client
-  healthChecks:
-    - apiVersion: apps/v1
-      kind: Deployment
-      name: flagger-loadtester
-      namespace: prod
