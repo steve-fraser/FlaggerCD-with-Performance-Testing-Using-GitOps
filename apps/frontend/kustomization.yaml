@@ -7,4 +7,4 @@ resources:
 images:
   - name: stevenfraser/ci-demo-application
     newName: stevenfraser/ci-demo-application
-    newTag: 0.0.1
+    newTag: v0.0.6
