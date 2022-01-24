@@ -5,5 +5,5 @@ metadata:
   name: demo-app-image
   namespace: flux-system
 spec:
-  image: registry.hub.docker.com/stevenfraser/demo-application
+  image: stevenfraser/demo-application
   interval: 5m0s
