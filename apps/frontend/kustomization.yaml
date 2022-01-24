@@ -4,6 +4,9 @@ resources:
 - canary.yaml
 - deployment.yaml
 - hpa.yaml
+- image-repo.yaml
+- image-policy.yaml
+- hpa.yaml
 images:
   - name: stevenfraser/demo-application
     newName: stevenfraser/demo-application  # {"$imagepolicy": "flux-system:demo-app-policy:name"}
