@@ -1,0 +1,9 @@
+---
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImageRepository
+metadata:
+  name: demo-app-image
+  namespace: flux-system
+spec:
+  image: registry.hub.docker.com/stevenfraser/demo-application
+  interval: 5m0s
