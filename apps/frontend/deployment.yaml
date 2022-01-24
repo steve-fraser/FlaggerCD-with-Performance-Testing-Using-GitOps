@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: stevenfraser/ci-demo-application:0.0.1
+        image: stevenfraser/demo-application:v0.0.6
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000

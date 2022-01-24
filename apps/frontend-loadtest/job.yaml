@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: loadtester
-        image: stevenfraser/demo-application-loadtester:0.0.1
-        command: ["run","--vus","10","--duration", "60m", "script.js"]
+        image: stevenfraser/demo-application-loadtester:v0.0.6
+        command: ["run","--vus","10","--duration", "10m", "script.js"]
       restartPolicy: Never
   backoffLimit: 4
